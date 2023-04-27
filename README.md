@@ -112,9 +112,13 @@ Open your browser and go to [http://localhost:8000/redoc](http://localhost:8000/
 ### Docker Compose
 
 You can build and run the container with Docker Compose
+```shell
+docker-compose build
+```
+
 
 ```shell
-docker compose up
+docker-compose up
 ```
 
 Or, run in *detached* mode if you prefer.

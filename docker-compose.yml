@@ -2,6 +2,8 @@
 services:
   poetry-project:
     container_name: poetry-project
-    build: .
+    build:
+      context: .
+      target: development
     ports:
       - "8000:8000"
